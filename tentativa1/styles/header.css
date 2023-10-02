@@ -1,24 +1,31 @@
-header {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25em;
-    background-image: url(../imagem/Menu.svg);
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 20px;
-    position: absolute;
-}
-
-.check:checked~.lista__menu {
-   display: block;
-}
-
-.lista__menu {
-    display: none;
-    position: relative;
-    width: 60px;
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
 }
 
 .check {
-    
+
+}
+
+img {
+
+}
+
+.imagem__menu {
+   height: 24px;
+   width: 24px;
+   background-image: url(../imagem/Menu.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+}
+
+
+
+.lista__menu {
+
+}
+
+.lista__lista {
+
 }
