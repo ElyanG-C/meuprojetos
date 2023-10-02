@@ -1,32 +1,3 @@
-@charset "UTF-8"; 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-body {
-    background-color: black;
-    color: white;
-    background-image: url(img/astronauta1.jpg);
-    background-repeat: no-repeat;
-    background-size: 31em;
-    
-
-}
-
-.sessao1 {
-
-}
-
-.divisao1 {
-
-}
-
-h1 {
-    font-family: 'Major Mono Display', Arial, Helvetica, sans-serif; ;
-    font-size: 2.5em;
-    font-weight: bold;
-}
+@import url(styles/header.css);
+@import url(styles/section.css
+);
