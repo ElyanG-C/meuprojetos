@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+   --branco: #DBC5B6;
+   --azul: #666EF9;
+}
+
+body {
+   background-color: black;
+}
+
+.cabecalho {
+
+}
+
+h1 {
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   text-align: center;
+    
+}
+
+h2 {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 25px;
+}
+
+.sessao {
+
+}
+
+.sessao__divisao1 {
+
+}
+
+img {
+    margin: 0px 0px 0px 8em;
+}
+
+a {
+    
+    padding: 20px;
+    background-color: var(--azul) ;
+    border-radius: 15px;
+  
+}
+
+.sessao__divisao2 {
+
+}
