@@ -1,0 +1,30 @@
+@media  screen and (min-width:1000px)  {
+    img {
+        margin: 0px 0px 0px 10em;
+    }
+
+    a {
+        margin: 20px 40em 20px 40em;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    img {
+        margin: 0px 0px 0px 25em;
+    }
+
+    a {
+        margin: 20px 40em 20px 40em;
+    }
+}
+
+@media screen and (min-width: 1600px)  {
+    img {
+            margin: 0px 0px 0px 35em;
+        
+    }
+
+    a {
+        margin: 20px 15em 20px 15em;
+    }
+}
