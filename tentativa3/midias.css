@@ -1,20 +1,27 @@
-@media  screen and (min-width:1000px)  {
+@media  screen and (min-width:768px)  {
     img {
-        margin: 0px 0px 0px 10em;
+        margin: 0px 0px 0px 16em;
     }
 
     a {
-        margin: 20px 40em 20px 40em;
+        padding: 25px;
+        margin: 0px 15em 0px 15em;
     }
+
+    
 }
 
-@media screen and (min-width:1500px) {
+@media screen and (min-width:1200px) {
     img {
-        margin: 0px 0px 0px 25em;
+        margin: 0px 0px 0px 32em;
     }
 
     a {
-        margin: 20px 40em 20px 40em;
+        margin: 20px 28em 20px 28em;
+    }
+
+    h2 {
+        margin-right: 8em;
     }
 }
 
@@ -28,3 +35,4 @@
         margin: 20px 15em 20px 15em;
     }
 }
+
