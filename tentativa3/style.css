@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,300 & display=swap');
-@import url("medias/tablet.css");
-@import url("medias/desktop.css");
+@import url("midias.css");
 
 * {
     margin: 0;
@@ -37,7 +36,7 @@ h2 {
 }
 
 .sessao {
-
+display: block;
 }
 
 .sessao__divisao1 {
@@ -48,7 +47,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 0px 0px 4.5em
+    margin: 0px 0px 0px 4.3em
 }
 
 a {

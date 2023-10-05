@@ -1,9 +1,9 @@
-@media  screen and (min-width:768px)  {
+@media  screen and (min-width:768px)  { /* TABLET*/
     img {
         margin: 0px 0px 0px 16em;
     }
 
-    a {
+    a { 
         padding: 25px;
         margin: 0px 15em 0px 15em;
     }
@@ -11,7 +11,7 @@
     
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1200px) { /* DESKTOP */
     img {
         margin: 0px 0px 0px 32em;
     }
@@ -24,8 +24,16 @@
         margin-right: 8em;
     }
 }
+    .sessao__divisao2 {
 
-@media screen and (min-width: 1600px)  {
+    }
+
+    .sessao {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+@media screen and (min-width: 1600px)  { /* LAPTOP */
     img {
             margin: 0px 0px 0px 35em;
         
