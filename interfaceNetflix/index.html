@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="midias.css">
+</head>
+<body>
+    <header>
+        <h1>Curiosidades </h1>
+    </header>
+    <section class="sessao__palavras">
+        <h2>QUESTAO 1</h2>
+        <div class="divisao__maior">
+            <div class="divisao__palavras">
+                <p>Qual minha cor preferida?</p>
+            </div>
+        </div>
+          
+    </section>
+
+    <section class="sessao__botao">
+          <div class="sessao__botao">
+              <button class="botao" onclick="verificar(false)">Vermelho</button>
+              <button class="botao" onclick="verificar(false)">Verde</button>
+              <button class="botao" onclick="verificar(false)">Azul</button>
+              <button id="botao__correto" onclick="verificar(true)">Preto</button>
+          </div>
+    </section>
+    
+    <div class="divisao__continuar">
+        <button id= "continuar__jogo">CONTINUAR</button>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

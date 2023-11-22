@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,200 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root
+{
+    --verde: #77dd77;
+    --vermelho: #ff6961;
+    --amarelo: #fdfd96;
+    --azul: #84b6f4;
+    --lilas: #fdcae1;
+    --azulForte:  #1253a1;
+}
+
+body 
+{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header 
+{
+    background-color: var(--azulForte);
+    padding: 18px;
+    border-radius: 5px; 
+    margin: 2px;
+    text-align: center;
+}
+
+.divisao__maior
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.divisao__palavras
+{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90px;
+  border: 2px solid white;
+}
+
+h2 
+{
+    text-align: center;
+    margin: 15px;
+}
+
+p
+{
+ font-size: 1.2em;   
+}
+
+.sessao__botao
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button
+{
+   padding: 10px;
+   border-radius: 10px;   
+   width: 500%;
+   margin: 2px;
+}
+
+#continuar__jogo
+{
+    padding: 10px;
+    width: 50%;
+    background-color: var(--vermelho);
+    border-radius: 40px;
+}
+
+.divisao__continuar 
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
